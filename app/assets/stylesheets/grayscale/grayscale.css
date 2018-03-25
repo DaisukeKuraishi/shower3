@@ -148,7 +148,8 @@ a:focus {
     text-align: center;
     color: #fff;
     /* background: url('/assets/grayscale/rain.jpg') no-repeat bottom center scroll; */
-    background: image-url('/assets/grayscale/rain.jpg') no-repeat bottom center scroll;
+    /* background: image-url('/assets/grayscale/rain.jpg') no-repeat bottom center scroll; */
+    background: url('/images/grayscale/rain.jpg') no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -267,7 +268,8 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     /* background: url('/assets/grayscale/drop.jpg') no-repeat center center scroll; */
-    background: image-url('/assets/grayscale/drop.jpg') no-repeat center center scroll;
+    /* background: image-url('/assets/grayscale/drop.jpg') no-repeat center center scroll; */
+    background: url('/images/grayscale/drop.jpg') no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
