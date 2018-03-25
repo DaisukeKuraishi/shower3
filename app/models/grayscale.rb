@@ -1,0 +1,2 @@
+class Grayscale < ApplicationRecord
+end

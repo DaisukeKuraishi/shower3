@@ -1,0 +1,11 @@
+	<%= render 'shim' %>
+	<%= render 'navigation' %>
+	<%= render 'header' %>
+	<%= render 'about' %>
+	<%= render partial: 'show',locals: { grayscales: @grayscales} %>
+	<%= render 'download' %>
+	<%= render partial: 'form',locals: { grayscale: @grayscale} %>
+	<%= render 'contact' %>
+	<%= render 'map' %>
+	<%= render 'footer' %>
+	<div id="grayscale-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"></div>
