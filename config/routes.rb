@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
-  get 'grayscales/index'
-  
+  root 'grayscales#index'
+
+  resources :grayscales
+
 end
